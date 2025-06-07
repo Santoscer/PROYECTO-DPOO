@@ -1,0 +1,131 @@
+[
+  {
+    "nombre": "Andres Cervera",
+    "email": "acerveras123@gmail.com",
+    "password": "Cervera1928",
+    "fecha": "28/5/2025, 8:12:14 p. m."
+  },
+  {
+    "nombre": "Vanessa Garcia",
+    "email": "marijorojas552@gmail.com",
+    "password": "Vanessa123",
+    "fecha": "28/5/2025, 8:18:52 p. m."
+  },
+  {
+    "nombre": "Andres Cervera",
+    "email": "asddsads@gmail.com",
+    "telefono": "13113143214",
+    "password": "Andres123",
+    "fecha": "28/5/2025, 8:21:57 p. m."
+  },
+  {
+    "nombre": "jhoann cervera",
+    "email": "qwefqw@gmail.com",
+    "telefono": "3148024491",
+    "password": "Sgtyvencervera",
+    "fecha": "28/5/2025, 8:27:03 p. m."
+  },
+  {
+    "nombre": "Gabriel ",
+    "email": "gabnads@gmail.com",
+    "telefono": "3109872291",
+    "password": "Cervera12341",
+    "fecha": "28/5/2025, 8:32:32 p. m."
+  },
+  {
+    "id": 1748482713746,
+    "nombre": "Santiago santos",
+    "email": "santi123@gmail.com",
+    "telefono": "3109276612",
+    "password": "santiago123",
+    "fecha": "28/5/2025, 8:38:33 p. m."
+  },
+  {
+    "id": 1748483894791,
+    "nombre": "juan pablo",
+    "email": "asdfsad@gmial.com",
+    "telefono": "31029128812",
+    "password": "adsfqwefqw",
+    "fecha": "28/5/2025, 8:58:14 p. m."
+  },
+  {
+    "id": 1748486751227,
+    "nombre": "deigo",
+    "email": "diego@gmail.com",
+    "telefono": "311213123123",
+    "password": "diego123456",
+    "fecha": "28/5/2025, 9:45:51 p. m."
+  },
+  {
+    "id": 1748543008560,
+    "nombre": "Paula",
+    "email": "paula@gmail.com",
+    "telefono": "3124301928",
+    "password": "Paula1234",
+    "fecha": "29/5/2025, 1:23:28 p. m."
+  },
+  {
+    "id": 1748552410460,
+    "nombre": "Vanessa Garcia Ariza",
+    "email": "vg4714959@gmail.com",
+    "telefono": "3057098937",
+    "password": "Vanessa28",
+    "fecha": "29/5/2025, 4:00:10 p.m."
+  },
+  {
+    "id": 1748985515893,
+    "nombre": "Samuel Diaz",
+    "email": "sm786@gmail.com",
+    "telefono": "3005789896",
+    "password": "prueba123",
+    "fecha": "3/6/2025, 4:18:35 p.m."
+  },
+  {
+    "id": 1748996377576,
+    "nombre": "Juan Rodriguez",
+    "email": "jr2689@gmail.com",
+    "telefono": "3002569879",
+    "password": "prueba1234",
+    "fecha": "3/6/2025, 7:19:37 p.m."
+  },
+  {
+    "id": 1749011552087,
+    "nombre": "Samuel Garcia",
+    "email": "sm566@hotmail.com",
+    "telefono": "3005798730",
+    "password": "prueba456",
+    "fecha": "3/6/2025, 11:32:32 p.m."
+  },
+  {
+    "id": 1749011837976,
+    "nombre": "Samuel Garcia",
+    "email": "sm596@hotmail.com",
+    "telefono": "3005798730",
+    "password": "prueba789",
+    "fecha": "3/6/2025, 11:37:17 p.m."
+  },
+  {
+    "id": 1749012159516,
+    "nombre": "Lucas Pulido",
+    "email": "lp258@gmail.com",
+    "telefono": "3124098769",
+    "password": "ojala456",
+    "fecha": "3/6/2025, 11:42:39 p.m."
+  },
+  {
+    "id": 1749012379111,
+    "nombre": "Juan Ariza",
+    "email": "jariza@gmail.com",
+    "telefono": "3204075689",
+    "password": "yacasi123",
+    "fecha": "3/6/2025, 11:46:19 p.m."
+  },
+  {
+    "id": 1749328885720,
+    "nombre": "andres",
+    "email": "andres@gmail.com",
+    "telefono": "12312312312",
+    "password": "andres123",
+    "fecha": "7/6/2025, 3:41:25 p. m."
+  }
+]

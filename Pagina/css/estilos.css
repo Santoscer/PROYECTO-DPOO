@@ -1,0 +1,97 @@
+body{
+    padding: 50px;
+    background: linear-gradient(#637256 49%, #bbd8a3 87%); 
+    justify-items: center;
+}
+
+article{
+    padding: 50px;
+    background-color: rgba(171, 201, 170, 0.336);
+    background-size: 20px 50px;
+    border-style: none;
+    width: 500px;
+    height: 780px;
+
+
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: -2px -2px 0 #00000030,  
+                  2px -2px 0 #00000030,
+                 -2px  2px 0 #00000030,
+                  2px  2px 0 #00000030;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: -2px -2px 0 #00000030,  
+                  2px -2px 0 #00000030,
+                 -2px  2px 0 #00000030,
+                  2px  2px 0 #00000030;
+}
+
+
+#riegoregistro{
+    border-radius: 50px;
+}
+
+form {
+    background: none;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+
+}
+
+::placeholder{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+  
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    background-color: #8a5d338c;
+    width: 95%;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: #8a5d338c;
+    border-style: none;
+    box-shadow: 4px 4px #0000001f;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    text-shadow: -2px -2px 0 #00000030,  
+                  2px -2px 0 #00000030,
+                 -2px  2px 0 #00000030,
+                  2px  2px 0 #00000030;
+    margin-top: 20px;
+    width: 80%;
+    background: #637256;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    background: white;
+    color: #637256;
+}

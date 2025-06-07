@@ -1,0 +1,59 @@
+body {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background: linear-gradient(#637256 49%, #bbd8a3 87%);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-shadow: -2px -2px 0 #00000030,
+               2px -2px 0 #00000030,
+              -2px  2px 0 #00000030,
+               2px  2px 0 #00000030;
+}
+
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #637256;
+  color: white;
+  font-size: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.contenedor-historial {
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  backdrop-filter: blur(3px); /* opcional: le da un efecto de cristal */
+}

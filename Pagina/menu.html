@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Riego Automático</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <img src="img/Logo.png" alt="Logo del sistema de riego" width="80" height="80">
+        </a>
+        <h1>Sistema de Riego Automático</h1>
+        <button onclick="window.location.href='datosSietemadeRiego.html'"><h2>TOMAR DATOS</h2></button>
+    </header>
+
+    <main class="contenido">
+        <section class="seccion-info">
+            <h2>🌱¿Qué es un Sistema de Riego Automático?</h2>
+            <p>
+                Un sistema de riego automático es una solución tecnológica diseñada para regar las plantas de forma controlada y programada, sin intervención humana constante.
+                Utiliza sensores, válvulas, temporizadores y otros componentes electrónicos para garantizar que las plantas reciban la cantidad adecuada de agua en el momento justo.
+            </p>
+        </section>
+
+        <section class="seccion-info">
+            <h2> 📈Beneficios del Riego Automático</h2>
+            <ul>
+                <li>💧 <strong>Ahorro de agua:</strong> Riega solo cuando es necesario, evitando el desperdicio.</li>
+                <li>🛋️ <strong>Comodidad:</strong> No necesitas preocuparte por regar manualmente.</li>
+                <li>🌿 <strong>Salud de las plantas:</strong> Mantiene niveles óptimos de humedad.</li>
+                <li>⏱️ <strong>Eficiencia:</strong> Opera de forma automática evitando perder el tiempo a la hora de regar las plantas.</li>
+                <li>🌍 <strong>Sostenibilidad:</strong> Reduce el consumo de recursos naturales.</li>
+            </ul>
+        </section>
+
+        <section class="seccion-info">
+            <h2>🔧 ¿Cómo Funciona?</h2>
+            <p>Un sistema básico puede incluir los siguientes componentes:</p>
+            <ul>
+                <li>💧<strong>Sensor de humedad del suelo:</strong> Mide la cantidad de agua en la tierra.</li>
+                <li>💾<strong>Microcontrolador:</strong> Procesa los datos y toma decisiones con arduino.</li>
+                <li>🚰<strong>Microbomba:</strong> Dispositivo pequeño que impulsa líquidos en cantidades precisas y controladas.</li>
+                <li>⛲<strong>Fuente de agua:</strong> Puede ser un depósito de agua pequeño.</li>
+                <li>💻<strong>Programación:</strong> Define cuándo y cuánto regar.</li>
+                
+            </ul>
+        </section>
+
+        <section class="seccion-info">
+            <h2>📱 Automatización Inteligente</h2>
+            <ul>
+                <li>🕰️ Historial de riegos.</li>
+                <li>🤖 Compatibilidad con asistente virtual.</li>
+            </ul>
+        </section>
+
+        <section class="seccion-info">
+            <h2>🌼 Aplicaciones Comunes</h2>
+            <ul>
+                <li>🌻 Jardines residenciales</li>
+                <li>🌷 Huertos urbanos</li>
+                <li>🌹 Invernaderos</li>
+                <li>🌸 Áreas verdes institucionales</li>
+            </ul>
+        </section>
+
+        <section class="seccion-info">
+            <h2>💡 ¿Por qué implementar uno?</h2>
+            <p>
+                Instalar un sistema de riego automático mejora la salud de tus plantas, te ahorra tiempo y recursos, y te ofrece una alternativa ecológica y moderna para el cuidado de espacios verdes.
+            </p>
+        </section>
+
+        <section class="seccion-info">
+            <h2>🌐 ¿Qué ofrece esta página web?</h2>
+            <ul>
+                <li>🔣 Visualizar el porcentaje de humedad del suelo en tiempo real.</li>
+                <li>📂 Acceder a un historial de datos de riego.</li>
+                <li>🤖 Consultar un chatbot inteligente con dudas frecuentes.</li>
+                <li>👨‍💻 Registrar y gestionar usuarios para control personalizado.</li>
+            </ul>
+        </section>
+    </main>
+
+    <button class="chat-toggle-button" onclick="toggleChatbot()">🤖</button>
+
+    <div class="chatbot-container" id="chatbot" style="display: none;">
+        <div class="chatbox" id="chat-box">
+            <div class="bot-message">Hola, soy tu asistente virtual acerca de sistema de riego automático. ¿En qué puedo ayudarte?</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Escribe tu pregunta..."/>
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <script src="js/menu.js "></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Monitor de Humedad - Arduino</title>
+  <link rel="stylesheet" href="css/sistemaDeRiego.css">
+</head>
+<body>
+  <a href="index.html">
+    <img src="img/Logo.png" alt="Logo" class="100">
+  </a>
+  
+  <div class="card">
+    <h1>Lectura de Humedad</h1>
+    <div class="humedad" id="humedad">--%</div>
+    <div class="estado" id="estado">Sin conexión</div>
+    <button onclick="conectar()"><h2>Conectar Arduino</h2></button>
+  </div>
+
+  <div class="historial">
+    <h1>Historial de Lecturas</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Fecha</th>
+          <th>Hora</th>
+          <th>Humedad</th>
+        </tr>
+      </thead>
+      <tbody id="tabla-historial">
+      </tbody>
+    </table>
+  </div>
+
+  <div class="button">
+    <button onclick="window.location.href='historial.html'"><h2>VER HISTORIAL</h2></button>
+  </div>
+
+  <button class="chat-toggle-button" onclick="toggleChatbot()">&#x1F916;</button>
+
+  <div class="chatbot-container" id="chatbot" style="display: none;">
+    <div class="chatbox" id="chat-box">
+      <div class="bot-message">Hola, soy tu asistente virtual acerca de sistema de riego automatico. ¿En qué puedo ayudarte?</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Escribe tu pregunta..."/>
+      <button onclick="sendMessage()">Enviar</button>
+    </div>
+  </div>
+
+  <script src="js/datosDeRiego.js"></script>
+</body>
+</html>

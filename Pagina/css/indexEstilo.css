@@ -1,0 +1,57 @@
+body {
+    padding: 50px;
+    background: linear-gradient(#637256 49%, #bbd8a3 87%); 
+    justify-items: center;
+}
+
+article {
+    padding: 50px;
+    background-color: rgba(171, 201, 170, 0.336);
+    background-size: 20px 10px;
+    border-style: none;
+    width: 500px;
+    height: 670%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    text-shadow: -2px -2px 0 #00000030,  
+                  2px -2px 0 #00000030,
+                 -2px  2px 0 #00000030,
+                  2px  2px 0 #00000030;
+}
+
+#riegoregistro {
+    border-radius: 50px;
+}
+
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    text-shadow: -2px -2px 0 #00000030,  
+                  2px -2px 0 #00000030,
+                 -2px  2px 0 #00000030,
+                  2px  2px 0 #00000030;
+    margin-top: 20px;
+    width: 80%;
+    background: #637256;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background: white;
+    color: #637256;
+}
